@@ -10,7 +10,7 @@
 *   **Местоположение:** Россия
 *   **GitHub:** https://github.com/20yo0102
 *   **Telegram:** @F_Y_A02
-*   **Discord:** #yaroslav_f0202
+*   **Discord:** #20yo0102
 
 ---
 
