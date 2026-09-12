@@ -9,7 +9,8 @@
 *   **Email:** yaroslav-fedor@mail.ru
 *   **Местоположение:** Россия
 *   **GitHub:** https://github.com/20yo0102
-*   Telegram: @F_Y_A02
+*   **Telegram: @F_Y_A02
+*   **Discord: #yaroslav_f0202
 
 ---
 
