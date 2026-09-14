@@ -3,8 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fedorov</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/media.css">
 </head>
 <body>
+    <div class="wrapper">
+    <header class="header">
+      <nav class="header__menu">
+        <ul class="menu__list">
+          <li class="menu__items"><a href="#contacts" class="menu__link">Контакты</a></li>
+          <li class="menu__items"><a href="#skills" class="menu__link">Навыки</a></li>
+           <li class="menu__items"><a href="#lang" class="menu__link">Язык</a></li>
+           <li class="menu__items"><a href="#code" class="menu__link">Код</a></li>
+          <li class="menu__items"><a href="#about-me" class="menu__link">Обо мне</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+         <div class="main__wrapper">
+        <section class="main__header">
+          <img src="./style/dog_cat.jpg" alt="My-foto" class="main__img">
+          <div class="main__title">
+            <h1 class="title__name">Ярослав<span class="title__first-name"> Федоров</span></h1>
+            <div class="title__profession">Junior Front-End developer</div>
+          </div>
+        </section>
+        <section class="main__infomation">
+          <div class="infomation__left">
+            <div class="infomation__contacts">
+              <h2 class="contacts__title" id="contacts">Контакты</h2>
+              <ul class="contacts__list">
+                <li class="contacts__items">Country: <a target="_blank" href="" class="contacts__link"> Русский</a></li>
+                <li class="contacts__items">Email: <a target="_blank" href="yaroslav-fedor@mail.ru" class="contacts__link">yaroslav-fedor@mail.ru</a></li>
+                <li class="contacts__items">Discord: <a target="_blank" href=" " class="contacts__link">20yo0102</a></li>
+                <li class="contacts__items">Github: <a target="_blank" href="https://github.com/20yo0102" class="contacts__link">20yo0102</a></li>
+                <li class="contacts__items">Telegram: <a target="_blank" href="https://t.me/F_Y_A02" class="contacts__link">Yaroslav</a></li>
+              </ul>
+            </div>
+            <div class="infomation__skills">
+              <h2 class="skills__title" id="skills">Навыки</h2>
+              <ul class="slills__list">
+                <li class="skills__items">HTML5</li>
+                <li class="skills__items">CSS3(SCSS)</li>
+                <li class="skills__items">JavaScript</li>
+                <li class="skills__items">Git, Github</li>
+                <li class="skills__items">React</li>
+                <li class="skills__items">Scrum</li>
+              </ul>
+            </div>
+             <section class="card" id="languages">
+              <h2 class="card__title">Языки</h2>
+              <ul class="card__list">
+                <span class="lang__flag">Русский — родной</span>
+                <span class="lang__flag">Английский уровня-B2</span>
+                 
+              </ul>
+            </section>
+          </aside>
+          <div class="main-content">
+            <section class="card" id="experience">
+              <h2 class="card__title">Опыт работы</h2>
+              <div class="experience">
+                <div class="experience__header">
+                  <h3 class="experience__company">Фриланс</h3>
+                  <span class="experience__period">2025 — 2026</span>
+                </div>
+                <p class="experience__role">Frontend-разработчик</p>
+                <p class="experience__desc">
+                  Разработка и поддержка клиентских веб-приложений, работа с
+                  современными технологиями и инструментами.
+                </p>
+              </div>
+            </section>
+            <section class="card" id="code">
+              <h2 class="card__title">Пример кода</h2>
+              <p class="code__desc">Функция <code>sortedSquares</code> — возвращает массив квадратов элементов, отсортированный по возрастанию:</p>
+              <pre class="code__block"><code>var sortedSquares = function(nums) {
+    const n = nums.length;
+    const result = new Array(n);
+
+    let left = 0;
+    let right = n - 1;
+    let index = n - 1;
+
+    while (left &lt;= right) {
+        const leftSquare = nums[left] * nums[left];
+        const rightSquare = nums[right] * nums[right];
+
+        if (leftSquare &gt; rightSquare) {
+            result[index] = leftSquare;
+            left++;
+        } else {
+            result[index] = rightSquare;
+            right--;
+        }
+        index--;
+    }
+    return result;
+};</code></pre>
+            </section>
+            <section class="card" id="about-me">
+              <h2 class="card__title">О себе</h2>
+              <p class="about__text">
+                Мотивированный и целеустремлённый разработчик с глубоким
+                пониманием технологий. Стремлюсь применять свои навыки для
+                создания инновационных и масштабируемых веб-приложений.
+              </p>
+            </section>
+          </div>
+        </div>
+    </main>
+     <footer class="footer">
+            <a href="https://github.com/20yo0102">My Github</a>
+            <p>&copy; 2026 by Fedorov Yaroslav</p>
+                 <a href="https://rs.school/courses/javascript" target="_blank" class="footer__logo-link">
+                  <img src="./style/rs_school_js.svg" alt="RS School" class="footer__logo" /></a>
+        </footer>
 </body>
 </html>

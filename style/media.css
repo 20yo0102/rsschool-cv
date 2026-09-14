@@ -1,0 +1,24 @@
+@media (max-width: 480px) {
+  .hero__img {
+    width: 110px;
+    height: 110px;
+  }
+
+  .hero__name {
+    font-size: 1.6rem;
+  }
+
+  .card {
+    padding: 18px;
+  }
+
+  .code__block {
+    font-size: 0.78rem;
+    padding: 14px;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
